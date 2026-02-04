@@ -26,6 +26,11 @@ export default function Home() {
             className=" w-64 h-64 md:w-72 md:h-72 rounded-full mx-auto my-6 border-indigo-400 border-3 object-cover"
           />
         </div>
+        <div className="max-w-4xl mx-auto p-4 text-sm md:text-md text-white">
+          <p>I have lived in Charlotte, North Carolina since 2005. I’m originally from Queens, New York and lived in Southern Florida for about 2 years before settling in NC. Upon moving to Charlotte, I was able to kickstart my interest in technology and my natural love for art.</p>
+          <p className="pt-4">My passion for web development began in 2017 when I completed UNC Charlotte’s Full Stack Web Development course. Over a period of six months, I learned, networked, and built collaborative projects with colleagues. Since then, I've been involved with Full Stack Development, Developer Support, and Product Supportability for mostly Linux-based, containerized, and open-source software for the last 6 years.</p>
+          <p className="pt-4">Currently now, I work as a Senior Technical Advisor for Microsoft - on their Azure App Services - Open Source Software team (PaaS) engaging with a wide variety of technical and soft skill tasks both internal and through customer interaction.</p>
+        </div>
       </div>
     </div>
   );
