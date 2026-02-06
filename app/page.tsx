@@ -27,11 +27,19 @@ export default function Home() {
           />
         </div>
         <div className="max-w-4xl mx-auto p-4 text-sm md:text-md text-white">
-          <p>I have lived in Charlotte, North Carolina since 2005. I’m originally from Queens, New York and lived in Southern Florida for about 2 years before settling in NC. Upon moving to Charlotte, I was able to kickstart my interest in technology and my natural love for art.</p>
-          <p className="pt-4">My passion for web development began in 2017 when I completed UNC Charlotte’s Full Stack Web Development course. Over a period of six months, I learned, networked, and built collaborative projects with colleagues. Since then, I've been involved with Full Stack Development, Developer Support, and Product Supportability for mostly Linux-based, containerized, and open-source software for the last 6 years.</p>
-          <p className="pt-4">Currently now, I work as a Senior Technical Advisor for Microsoft - on their Azure App Services - Open Source Software team (PaaS) engaging with a wide variety of technical and soft skill tasks both internal and through customer interaction.</p>
-        </div>
+          <p className="py-4">My name is Anthony and I've been working with Open Source Software and Open Sourced-based languages for the last 7+ years.</p>
+
+          <p className="py-4">
+            I work primarily with backend related languages and software but also will use various front-end Javascript, CSS frameworks, and libraries. In my current role I handle product supportability and technical incident escalations for Azure App Services, Azure Container Apps, and Azure Spring Apps, including OSS that runs on these services - as well as the products codebase(s) themselves. I work with various teams and stakeholders between CSS (engineers, other TA's, Supportability) and engineering (Software engineers, PMs and Software Engineering Managers). Including creating numerous internal and external public facing diagnostic dashboards through internal C# frameworks - and building up a vast wealth of technical knowledge bases, articles, and blogs, for all of these services and languages both for internal and external public consumption. Daily technical incident investigation, triage for incidents, and other incident work, across App Service Linux and Container Apps, and generally investigating complex incidents are apart of daily work throughout the week.
+          </p>
+
+          <p className="py-4">I've helped build and lead supportability efforts from the support side and have built most of all available diagnostic detectors exposed in Diagnose and Solve Problems (available externally, public facing) and internally to engineers, for Azure Container Apps. I've created almost around 75% of TSGs used by support engineers and other CSS roles handling this product. This has lead to a 40% drop in incidents over time and increasing engineer effenciency through the years. I also work closely with other engineering teams and engineering leads and assisting with their incidents to identify issues or be proactive for improvement in product codebases.</p>
+
+          <p className="py-4">For both work and side projects - I mostly use Linux and containerized applications that encapsulates all of the above. I've taken an interest with container software such as containerd and runc, and the languages that power a lot of these, which is Go (lang). Other languages I work with more commonly is Javascript (through node.js and client only .js), Python, C#, Java and PHP. Aside from working with these in production scenarios, I like to experiment with these languages and their frameworks by building random applications or projects.</p>
+
+          <p className="py-4">Outside of work, I like to travel - currently attempting to start my journey of slowly visiting all European countries that I can. I like to work on random house projects, play video games, and piano. I've been learning Italian in my free time, as well. I've also recently starting using Home Assistant for home automation and exploring what it can do.</p>
       </div>
     </div>
+    </div >
   );
 }
