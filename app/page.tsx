@@ -38,8 +38,12 @@ export default function Home() {
           <p className="py-4">For both work and side projects - I mostly use Linux and containerized applications that encapsulates all of the above. I've taken an interest with container software such as containerd and runc, and the languages that power a lot of these, which is Go (lang). Other languages I work with more commonly is Javascript (through node.js and client only .js), Python, C#, Java and PHP. Aside from working with these in production scenarios, I like to experiment with these languages and their frameworks by building random applications or projects.</p>
 
           <p className="py-4">Outside of work, I like to travel - currently attempting to start my journey of slowly visiting all European countries that I can. I like to work on random house projects, play video games, and piano. I've been learning Italian in my free time, as well. I've also recently starting using Home Assistant for home automation and exploring what it can do.</p>
+        </div>
       </div>
-    </div>
+      <footer className="bg-gray-900 text-center text-white p-4">
+        <p>&copy; 2026 Anthony Salemo</p>
+      </footer>
     </div >
+
   );
 }
