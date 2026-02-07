@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div>
-      <div className="flex min-h-screen items-center justify-center font-sans bg-[url('/background.jpg')] bg-cover h-screen bg-top">
+      <div className="flex min-h-screen items-center justify-center font-sans bg-[url('/background.jpg')] bg-cover h-screen bg-top" id="top">
         <div className="flex flex-col bg-gray-900 w-1/2 h-96 rounded-sm bg-linear-to-r/srgb from-indigo-950 to-teal-950 justify-center text-white p-8 opacity-90">
           <h1 className="text-center"><span className="text-2xl md:text-4xl">Hi, my name is </span><span className="text-2xl md:text-4xl font-bold italic">Anthony Salemo</span></h1>
           <div className="flex justify-around mt-4 pt-8">
@@ -41,9 +41,12 @@ export default function Home() {
         </div>
       </div>
       <footer className="bg-gray-900 text-center text-white p-4">
-        <p>&copy; 2026 Anthony Salemo</p>
+        <div className="flex flex-col justify-center items-center">
+          <p>&copy; 2026 Anthony Salemo</p>
+          <span className="border-black border-1 my-4 w-1/6"></span>
+          <a href="#top" className="text-sm md:text-lg mt-4 px-4 py-2 bg-indigo-900 rounded hover:bg-indigo-800">Back to top</a>
+        </div>
       </footer>
     </div >
-
   );
 }
